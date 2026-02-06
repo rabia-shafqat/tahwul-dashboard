@@ -1,0 +1,309 @@
+{
+  "timeline": [
+    {
+      "id": 1,
+      "date": "2026-01-01",
+      "title": "Project Start",
+      "status": "completed"
+    },
+    {
+      "id": 2,
+      "date": "2026-03-15",
+      "title": "Milestone 1",
+      "status": "in-progress"
+    },
+    {
+      "id": 3,
+      "date": "2026-06-30",
+      "title": "Audit Review",
+      "status": "pending"
+    },
+    {
+      "id": 4,
+      "date": "2026-12-31",
+      "title": "Project End",
+      "status": "pending"
+    }
+  ],
+  "stats": [
+    {
+      "title": "Overall Progress",
+      "value": "78.65%",
+      "icon": "/src/assets/icons/chart.svg"
+    },
+    {
+      "title": "Total Criteria",
+      "value": 95,
+      "icon": "/src/assets/icons/folder.svg"
+    },
+    {
+      "title": "Completed Criteria",
+      "value": 52,
+      "icon": "/src/assets/icons/check.svg"
+    },
+    {
+      "title": "Evidence Documents",
+      "value": 386,
+      "icon": "/src/assets/icons/security.svg"
+    },
+    { "title": "", "value": 302, "icon": "/src/assets/icons/check.svg" },
+    {
+      "title": "Uploaded to DGA",
+      "value": 258,
+      "icon": "/src/assets/icons/upload.svg"
+    }
+  ],
+
+  "status": {
+    "notStarted": "gray",
+    "inProgress": "yellow",
+    "completed": "green",
+    "partiallyUploaded": "blue",
+    "fullyUploaded": "teal",
+    "delayed": "red"
+  },
+  "recentActivities": [
+    {
+      "id": 1,
+      "action": "Document “Strategy_Review.Pdf”",
+      "detail": "Was Uploaded By Ahmed Khaled",
+      "timeAgo": "5 Mins Ago"
+    },
+    {
+      "id": 2,
+      "action": "Task “Review Compliance Files”",
+      "detail": "Was Assigned To Mona Hamed",
+      "timeAgo": "20 Mins Ago"
+    },
+    {
+      "id": 3,
+      "action": "New Criterion “5.3 Digital Identity”",
+      "detail": "Was Created By Admin",
+      "timeAgo": "1 Hour Ago"
+    }
+  ],
+  "auditReadiness": {
+    "overall": 85,
+    "details": [
+      { "area": "Compliance", "progress": 90 },
+      { "area": "Documentation", "progress": 80 }
+    ]
+  },
+
+  "progressPerspectives": [
+    {
+      "title": "Strategy And Planning",
+      "percent": 97.78,
+      "subItems": [
+        {
+          "name": "Digital Transformation",
+          "statuses": ["completed", "completed", "completed"]
+        },
+        {
+          "name": "Digital Governance",
+          "statuses": ["completed", "inProgress", "inProgress"]
+        },
+        {
+          "name": "Enterprise Architecture",
+          "statuses": ["completed", "completed", "completed", "completed"]
+        }
+      ],
+      "url": "strategicPlanning"
+    },
+    {
+      "title": "Organization And Culture",
+      "percent": 70.83,
+      "subItems": [
+        {
+          "name": "Digital Culture And Environment",
+          "statuses": ["completed", "inProgress", "inProgress"]
+        },
+        {
+          "name": "Leadership Development",
+          "statuses": ["completed", "completed", "completed", "completed"]
+        },
+        {
+          "name": "Skills & Capacity Building",
+          "statuses": ["completed", "inProgress", "inProgress"]
+        }
+      ]
+    },
+    {
+      "title": "Operations And Execution",
+      "percent": 80.0,
+      "subItems": [
+        {
+          "name": "Business Processes",
+          "statuses": ["completed", "inProgress", "completed"]
+        }
+      ]
+    },
+    {
+      "title": "Business Continuity",
+      "percent": 90.59,
+      "subItems": [
+        {
+          "name": "Risk Management",
+          "statuses": [
+            "completed",
+            "completed",
+            "completed",
+            "completed",
+            "completed"
+          ]
+        },
+        {
+          "name": "Business Continuity",
+          "statuses": [
+            "completed",
+            "completed",
+            "completed",
+            "completed",
+            "completed",
+            "completed",
+            "completed"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Information Technology",
+      "percent": 75.0,
+      "subItems": [
+        {
+          "name": "Support Systems",
+          "statuses": [
+            "partiallyUploaded",
+            "completed",
+            "completed",
+            "completed",
+            "completed"
+          ]
+        },
+        {
+          "name": "IT Infrastructure",
+          "statuses": [
+            "completed",
+            "completed",
+            "completed",
+            "completed",
+            "completed",
+            "completed",
+            "completed"
+          ]
+        },
+        {
+          "name": "Cloud Infrastructure",
+          "statuses": ["completed", "completed", "partiallyUploaded"]
+        }
+      ]
+    },
+    {
+      "title": "Comprehensive Governance",
+      "percent": 64.44,
+      "subItems": [
+        {
+          "name": "Governance Platforms",
+          "statuses": [
+            "completed",
+            "completed",
+            "completed",
+            "partiallyUploaded",
+            "completed",
+            "completed",
+            "completed",
+            "completed",
+            "completed"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Channels And Services",
+      "percent": 100.0,
+      "subItems": [
+        {
+          "name": "Service Quality",
+          "statuses": ["completed", "completed", "completed"]
+        },
+        {
+          "name": "Digital Channels",
+          "statuses": ["completed", "completed", "completed", "completed"]
+        }
+      ]
+    },
+    {
+      "title": "Beneficiary Centralization",
+      "percent": 60.0,
+      "subItems": [
+        {
+          "name": "User Engagement",
+          "statuses": ["completed", "inProgress", "inProgress", "inProgress"]
+        },
+        {
+          "name": "User Relationship",
+          "statuses": ["completed", "inProgress", "inProgress"]
+        },
+        {
+          "name": "User Experience",
+          "statuses": [
+            "completed",
+            "inProgress",
+            "inProgress",
+            "inProgress",
+            "inProgress"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Government Data",
+      "percent": 87.5,
+      "subItems": [
+        {
+          "name": "Data Governance",
+          "statuses": ["completed", "inProgress", "inProgress"]
+        },
+        {
+          "name": "Data Usage & Availability",
+          "statuses": ["completed", "inProgress", "inProgress"]
+        },
+        {
+          "name": "Open Data",
+          "statuses": ["completed", "inProgress", "inProgress"]
+        }
+      ]
+    },
+    {
+      "title": "Research And Innovation",
+      "percent": 17.65,
+      "subItems": [
+        {
+          "name": "Innovation",
+          "statuses": ["inProgress", "delayed", "inProgress", "delayed"]
+        },
+        { "name": "Creative Solutions", "statuses": ["inProgress", "delayed"] }
+      ]
+    }
+  ],
+  "mockLeaders": [
+    {
+      "name": "Ahmed Al-Ali",
+      "perspective": "Strategy Perspective",
+      "percentage": 96,
+      "avatarUrl": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400"
+    },
+    {
+      "name": "Sarah Al-Khaled",
+      "perspective": "Beneficiary Perspective",
+      "percentage": 94,
+      "avatarUrl": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=400"
+    },
+    {
+      "name": "Mohammad Al-Mansour",
+      "perspective": "IT Perspective",
+      "percentage": 92,
+      "avatarUrl": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=400"
+    }
+  ]
+}

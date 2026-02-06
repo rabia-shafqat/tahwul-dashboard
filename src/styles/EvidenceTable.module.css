@@ -1,0 +1,14 @@
+.tableHeader {
+  background-color: #98aec01a !important; /* your light blue/gray color */
+  border-radius: 8px !important;
+  margin: 10px !important;
+  border-bottom: none !important; /* optional: remove bottom border if unwanted */
+}
+
+.tableHeader th {
+  font-size: 12px !important;
+  font-weight: 500 !important; /* "regular" but slightly bolder for readability */
+  color: #333 !important; /* adjust text color if needed */
+  text-transform: uppercase !important;
+  letter-spacing: 0.4px !important;
+}

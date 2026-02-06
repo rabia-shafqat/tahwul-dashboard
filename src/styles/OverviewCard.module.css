@@ -1,0 +1,6 @@
+.cellhighlight {
+  padding: calc(var(--mantine-spacing-xs));
+  border-radius: 8px;
+  background-color: #98aec01a;
+  cursor: pointer;
+}
