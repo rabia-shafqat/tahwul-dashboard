@@ -1,4 +1,4 @@
-import { RingProgress, Text, SimpleGrid, Divider, Group } from "@mantine/core";
+import { Text, Divider, Group } from "@mantine/core";
 import { SemiCircleProgress } from "react-semicircle-progressbar";
 
 export function AuditReadinessWidget() {
@@ -18,6 +18,7 @@ export function AuditReadinessWidget() {
           fontFamily: "cairo",
           fontWeight: "bold",
           fontSize: "18",
+          fill: "",
         }}
       />
       <Text ta="center" mt={-95} c="dimmed">

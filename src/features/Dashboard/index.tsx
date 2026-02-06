@@ -47,7 +47,7 @@ export default function Dashboard() {
             <Text fw="bold" fz={16} mb="sm">
               Project Timeline
             </Text>
-            <TimelineSection items={data.timeline} />
+            <TimelineSection />
           </Paper>
         </Grid.Col>
 

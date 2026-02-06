@@ -11,8 +11,7 @@ export type AppLayoutProps = {
 };
 
 export function AppLayout({ children }: AppLayoutProps) {
-  const [opened, { toggle }] = useDisclosure(); // mobile burger
-  const [navbarVisible, { toggle: toggleNavbar }] = useDisclosure(true); // control sidebar visibility
+  const [navbarVisible, { toggle: toggleNavbar }] = useDisclosure(true);
   const { activeScreen, onScreenChange } = useNavigation();
 
   const links = APP_ROUTES.map(({ label, icon: Icon, path }) => (
@@ -32,11 +31,7 @@ export function AppLayout({ children }: AppLayoutProps) {
 
   return (
     <AppShell
-      navbar={
-        navbarVisible
-          ? { width: 300, breakpoint: "sm", collapsed: { mobile: !opened } }
-          : undefined
-      }
+      navbar={navbarVisible ? { width: 300, breakpoint: "sm" } : undefined}
       padding="md"
       bg="#F5F8FA"
     >

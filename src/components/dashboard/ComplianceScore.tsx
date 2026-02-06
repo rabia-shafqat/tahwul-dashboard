@@ -18,6 +18,7 @@ export function ComplianceScore() {
           fontFamily: "cairo",
           fontWeight: "bold",
           fontSize: "18",
+          fill: "",
         }}
       />
       <Text ta="center" mt={-95} c="dimmed">

@@ -27,12 +27,12 @@ export function PerformanceChart() {
           { name: "value", color: "url(#barGradient)", label: "Performance" },
         ]}
         valueFormatter={(value) => `${value}%`}
-        yScaleMax={100}
-        yScaleMin={0}
+        // yScaleMax={100}
+        // yScaleMin={0}
         barProps={{ radius: 6 }}
         withTooltip={false}
         withLegend={false}
-        withBarLabels={false}
+        //  withBarLabels={false}
         tickLine="none"
         gridAxis="none"
       >

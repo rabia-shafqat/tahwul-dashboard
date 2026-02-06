@@ -1,24 +1,5 @@
-import {
-  Timeline,
-  Text,
-  Badge,
-  Stepper,
-  Progress,
-  Box,
-  Flex,
-  Paper,
-} from "@mantine/core";
+import { Text, Progress, Box, Flex } from "@mantine/core";
 
-interface TimelineItem {
-  id: number;
-  date: string;
-  title: string;
-  status: string;
-}
-
-interface TimelineSectionProps {
-  items: TimelineItem[];
-}
 const steps = [
   { date: "Mar 17", label: "Kickoff Workshop", status: "done" },
   { date: "Mar 18", label: "Data Collection", status: "done" },
@@ -27,7 +8,7 @@ const steps = [
   { date: "July 13", label: "Completion Reviews", status: "upcoming" },
   { date: "Aug 21", label: "Cycle Conclusion", status: "upcoming" },
 ];
-export function TimelineSection({ items }: TimelineSectionProps) {
+export function TimelineSection() {
   return (
     <>
       <Flex align="center" gap="sm">

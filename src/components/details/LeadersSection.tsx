@@ -1,4 +1,4 @@
-import { Text, Group, Avatar, rem, Stack, Box, Divider } from "@mantine/core";
+import { Text, Group, Avatar, rem, Stack, Box } from "@mantine/core";
 
 interface Leaders {
   name: string;
@@ -12,7 +12,7 @@ interface LeadersSectionProps {
 export function LeadersSection({ mockLeaders }: LeadersSectionProps) {
   return (
     <Group>
-      {mockLeaders.map((leader, index) => (
+      {mockLeaders.map((leader) => (
         <Box key={leader.name}>
           <Group
             wrap="nowrap"
