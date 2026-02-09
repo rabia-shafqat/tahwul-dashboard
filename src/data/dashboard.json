@@ -29,28 +29,28 @@
     {
       "title": "Overall Progress",
       "value": "78.65%",
-      "icon": "/src/assets/icons/chart.svg"
+      "icon": "../assets/icons/chart.svg"
     },
     {
       "title": "Total Criteria",
       "value": 95,
-      "icon": "/src/assets/icons/folder.svg"
+      "icon": "../assets/icons/folder.svg"
     },
     {
       "title": "Completed Criteria",
       "value": 52,
-      "icon": "/src/assets/icons/check.svg"
+      "icon": "../assets/icons/check.svg"
     },
     {
       "title": "Evidence Documents",
       "value": 386,
-      "icon": "/src/assets/icons/security.svg"
+      "icon": "../assets/icons/security.svg"
     },
-    { "title": "", "value": 302, "icon": "/src/assets/icons/check.svg" },
+    { "title": "", "value": 302, "icon": "../assets/icons/check.svg" },
     {
       "title": "Uploaded to DGA",
       "value": 258,
-      "icon": "/src/assets/icons/upload.svg"
+      "icon": "../assets/icons/upload.svg"
     }
   ],
 

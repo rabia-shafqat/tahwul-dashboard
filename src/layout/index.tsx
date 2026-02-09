@@ -39,7 +39,7 @@ export function AppLayout({ children }: AppLayoutProps) {
         <AppShell.Navbar p="md" bg="blue.9">
           <nav className={classes.navbar}>
             <div className={classes.header}>
-              <Image src="/src/assets/icons/logo.svg" w={120} mb={5} />
+              <Image src="../assets/icons/logo.svg" w={120} mb={5} />
             </div>
 
             <ScrollArea className={classes.links}>
@@ -52,7 +52,7 @@ export function AppLayout({ children }: AppLayoutProps) {
       <AppShell.Main>
         {navbarVisible ? (
           <Image
-            src={"/src/assets/icons/open.svg"}
+            src={"../assets/icons/open.svg"}
             w={40}
             ml={-35}
             style={{ zIndex: 1000 }}

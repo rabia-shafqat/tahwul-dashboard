@@ -3,22 +3,22 @@
     {
       "title": "Total Evidence",
       "value": 4,
-      "icon": "/src/assets/icons/files.svg"
+      "icon": "../assets/icons/files.svg"
     },
     {
       "title": "Under Review Evidence",
       "value": 3,
-      "icon": "/src/assets/icons/search.svg"
+      "icon": "../assets/icons/search.svg"
     },
     {
       "title": "In Progress Evidence",
       "value": 2,
-      "icon": "/src/assets/icons/export.svg"
+      "icon": "../assets/icons/export.svg"
     },
     {
       "title": "Completed Evidence",
       "value": 1,
-      "icon": "/src/assets/icons/validation.svg"
+      "icon": "../assets/icons/validation.svg"
     }
   ],
 

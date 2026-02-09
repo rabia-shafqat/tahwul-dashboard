@@ -31,14 +31,12 @@ export default function StrategicPlanning() {
   const [activeTab, setActiveTab] = useState("Overview");
   const data = useMockData<StrategicPlanningData>("details.json");
 
-  if (!data) return <div>Loading...</div>;
-
   return (
     <Container size="xl" p="md">
       {/* Header */}
       <Group mb="md">
         <Image
-          src="/src/assets/icons/back.svg"
+          src="../assets/icons/back.svg"
           w={24}
           onClick={() => navigate(-1)}
           style={{ cursor: "pointer" }}
@@ -59,7 +57,7 @@ export default function StrategicPlanning() {
         {/* Stats Cards */}
         <Grid.Col span={12}>
           <SimpleGrid cols={{ base: 1, sm: 2, lg: 4 }} mt="md">
-            {data.stats.map((stat, i) => (
+            {data?.stats?.map((stat, i) => (
               <StatsCard key={i} {...stat} />
             ))}
           </SimpleGrid>

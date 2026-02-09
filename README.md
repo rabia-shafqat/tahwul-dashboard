@@ -4,6 +4,14 @@ A modern, responsive dashboard built with **React**, **TypeScript**, and **Vite*
 
 ---
 
+## Live Demo:
+
+https://tahwul-dashboard.web.app/
+
+## Detail page
+
+https://tahwul-dashboard.web.app/details/strategicPlanning
+
 ## 🚀 How to Run the Project
 
 1. **Clone the repository**

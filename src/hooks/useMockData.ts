@@ -1,13 +1,14 @@
-import { useState, useEffect } from "react";
+import dashboardData from "../data/dashboard.json";
+import detailsData from "../data/details.json";
 
 export function useMockData<T>(filePath: string): T | null {
-  const [data, setData] = useState<T | null>(null);
-
-  useEffect(() => {
-    import(`../data/${filePath}`)
-      .then((module) => setData(module.default))
-      .catch(console.error);
-  }, [filePath]);
-
-  return data;
+  switch (filePath) {
+    case "dashboard.json":
+      return dashboardData as T;
+    case "details.json":
+      return detailsData as T;
+    default:
+      console.error("Unknown mock data file:", filePath);
+      return null;
+  }
 }

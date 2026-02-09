@@ -89,7 +89,7 @@ export function CommentsSection() {
 
       <Group justify="flex-start" mt="sm">
         <Button
-          leftSection={<Image src="/src/assets/icons/sent.svg" w={20} mb={5} />}
+          leftSection={<Image src="../assets/icons/sent.svg" w={20} mb={5} />}
           variant="filled"
           bg="blue.9"
           size="sm"
